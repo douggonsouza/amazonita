@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "douggonsouza/genalerts",
-            "version": "1.0.1",
+            "version": "1.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/douggonsouza/genalerts.git",
-                "reference": "bf4371b763592695e34fdadfa17381fe8718fb91"
+                "reference": "1f2eb05cd7f64a4fa38f8f978d989f3ddfe4a99f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/douggonsouza/genalerts/zipball/bf4371b763592695e34fdadfa17381fe8718fb91",
-                "reference": "bf4371b763592695e34fdadfa17381fe8718fb91",
+                "url": "https://api.github.com/repos/douggonsouza/genalerts/zipball/1f2eb05cd7f64a4fa38f8f978d989f3ddfe4a99f",
+                "reference": "1f2eb05cd7f64a4fa38f8f978d989f3ddfe4a99f",
                 "shasum": ""
             },
             "type": "library",
@@ -39,22 +39,22 @@
             "description": "MVC de alertas para o template Gentelela",
             "support": {
                 "issues": "https://github.com/douggonsouza/genalerts/issues",
-                "source": "https://github.com/douggonsouza/genalerts/tree/1.0.1"
+                "source": "https://github.com/douggonsouza/genalerts/tree/1.0.3"
             },
-            "time": "2023-04-07T19:24:41+00:00"
+            "time": "2023-04-07T23:39:50+00:00"
         },
         {
             "name": "douggonsouza/genpermissions",
-            "version": "1.0.1",
+            "version": "1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/douggonsouza/genpermissions.git",
-                "reference": "c64dddd216d4cf9525cb1e5175b4c6e801d42902"
+                "reference": "8fb823ba9ab4eff89fea1bec6f5cd18bb50b4af9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/douggonsouza/genpermissions/zipball/c64dddd216d4cf9525cb1e5175b4c6e801d42902",
-                "reference": "c64dddd216d4cf9525cb1e5175b4c6e801d42902",
+                "url": "https://api.github.com/repos/douggonsouza/genpermissions/zipball/8fb823ba9ab4eff89fea1bec6f5cd18bb50b4af9",
+                "reference": "8fb823ba9ab4eff89fea1bec6f5cd18bb50b4af9",
                 "shasum": ""
             },
             "type": "library",
@@ -76,9 +76,9 @@
             "description": "MVC de permissões para o template Gentelela",
             "support": {
                 "issues": "https://github.com/douggonsouza/genpermissions/issues",
-                "source": "https://github.com/douggonsouza/genpermissions/tree/1.0.1"
+                "source": "https://github.com/douggonsouza/genpermissions/tree/1.0.2"
             },
-            "time": "2023-04-07T19:25:57+00:00"
+            "time": "2023-04-07T23:41:57+00:00"
         },
         {
             "name": "douggonsouza/language",

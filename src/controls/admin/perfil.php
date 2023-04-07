@@ -1,10 +1,10 @@
 <?php
 
-namespace douggonsouza\discovery\controls\admin;
+namespace douggonsouza\imwvg\controls\admin;
 
 use douggonsouza\mvc\control\actInterface;
 use douggonsouza\propertys\propertysInterface;
-use douggonsouza\discovery\controls\admin\admin;
+use douggonsouza\imwvg\controls\admin\admin;
 use douggonsouza\gentelela\benchmarck;
 
 class perfil extends admin implements actInterface

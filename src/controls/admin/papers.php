@@ -1,12 +1,12 @@
 <?php
 
-namespace douggonsouza\discovery\controls\admin;
+namespace douggonsouza\imwvg\controls\admin;
 
 use douggonsouza\mvc\control\actInterface;
 use douggonsouza\propertys\propertysInterface;
-use douggonsouza\discovery\controls\admin\admin;
-use douggonsouza\permission\models\paper;
-use douggonsouza\permission\permission as permissionLib;
+use douggonsouza\imwvg\controls\admin\admin;
+use douggonsouza\genpermissions\models\paper;
+use douggonsouza\genpermissions\genpermissions as permissionLib;
 use douggonsouza\gentelela\benchmarck;
 use douggonsouza\routes\router;
 

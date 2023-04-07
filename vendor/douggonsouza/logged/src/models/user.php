@@ -2,12 +2,12 @@
 
 namespace douggonsouza\logged\models;
 
-use douggonsouza\mvc\model\model;
-use douggonsouza\mvc\model\modelInterface;
+use douggonsouza\mvc\model\table;
+use douggonsouza\mvc\model\tableInterface;
 use douggonsouza\propertys\propertys;
 use douggonsouza\propertys\propertysInterface;
 
-class user extends model implements modelInterface
+class user extends table implements tableInterface
 {
     public $table = 'users';
     public $key   = 'user_id';
@@ -30,17 +30,17 @@ class user extends model implements modelInterface
      */
     public function info()
     {
-        $var = $this->getField('user_id');
+        $var = $this->get('user_id');
         if(!isset($var)){
             return null;
         }
 
         return new propertys(
             array(
-                'user_id' => $this->getField('user_id'),
-                'name' => $this->getField('name'),
-                'email' => $this->getField('email'),
-                'paper_id' => $this->getField('paper_id')
+                'user_id' => $this->get('user_id'),
+                'name' => $this->get('name'),
+                'email' => $this->get('email'),
+                'paper_id' => $this->get('paper_id')
             )
         );
     }
@@ -55,27 +55,27 @@ class user extends model implements modelInterface
         if(isset($userId) || !empty($userId)){
             $user = new user($userId);
             return array(
-                    'user_id' =>$user->getField('user_id'),
-                    'paper_id' => $user->getField('paper_id'),
-                    'name' => $user->getField('name'),
-                    'email' => $user->getField('email'),
-                    'document' => $user->getField('document'),
-                    'birthday' => $user->getField('birthday'),
-                    'school' => $user->getField('school'),
-                    'office' => $user->getField('office')
+                    'user_id' =>$user->get('user_id'),
+                    'paper_id' => $user->get('paper_id'),
+                    'name' => $user->get('name'),
+                    'email' => $user->get('email'),
+                    'document' => $user->get('document'),
+                    'birthday' => $user->get('birthday'),
+                    'school' => $user->get('school'),
+                    'office' => $user->get('office')
             );
         }
 
         if($this->isModel()){
             return array(
-                    'user_id' => $this->getField('user_id'),
-                    'paper_id' => $this->getField('paper_id'),
-                    'name' => $this->getField('name'),
-                    'email' => $this->getField('email'),
-                    'document' => $this->getField('document'),
-                    'birthday' => $this->getField('birthday'),
-                    'school' => $this->getField('school'),
-                    'office' => $this->getField('office')
+                    'user_id' => $this->get('user_id'),
+                    'paper_id' => $this->get('paper_id'),
+                    'name' => $this->get('name'),
+                    'email' => $this->get('email'),
+                    'document' => $this->get('document'),
+                    'birthday' => $this->get('birthday'),
+                    'school' => $this->get('school'),
+                    'office' => $this->get('office')
             );
         }
 
@@ -90,7 +90,7 @@ class user extends model implements modelInterface
     public function lastName()
     {
         if($this->isModel()){
-            return end(explode(' ', $this->getField('name')));
+            return end(explode(' ', $this->get('name')));
         }
 
         return null;

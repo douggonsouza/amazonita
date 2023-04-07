@@ -1,6 +1,6 @@
 <?php
 
-namespace douggonsouza\discovery\controls;
+namespace douggonsouza\imwvg\controls;
 
 use douggonsouza\mvc\control\controllers;
 use douggonsouza\mvc\control\controllersInterface;

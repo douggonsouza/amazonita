@@ -13,11 +13,11 @@ return array(
     'douggonsouza\\mvc\\' => array($vendorDir . '/douggonsouza/mvc/src'),
     'douggonsouza\\logged\\' => array($vendorDir . '/douggonsouza/logged/src'),
     'douggonsouza\\language\\' => array($vendorDir . '/douggonsouza/language/src'),
+    'douggonsouza\\imwvg\\' => array($baseDir . '/src'),
     'douggonsouza\\html\\' => array($vendorDir . '/douggonsouza/html/src'),
     'douggonsouza\\gentelela\\' => array($vendorDir . '/douggonsouza/gentelela/src'),
     'douggonsouza\\genpermissions\\' => array($vendorDir . '/douggonsouza/genpermissions/src'),
     'douggonsouza\\genalerts\\' => array($vendorDir . '/douggonsouza/genalerts/src'),
     'douggonsouza\\etl\\' => array($vendorDir . '/douggonsouza/etl/src'),
     'douggonsouza\\downloads\\' => array($vendorDir . '/douggonsouza/downloads/src'),
-    'Douggonsouza\\Imwvg\\' => array($baseDir . '/src'),
 );

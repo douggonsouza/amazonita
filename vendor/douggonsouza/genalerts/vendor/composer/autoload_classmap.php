@@ -7,4 +7,6 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
+    'douggonsouza\\genalerts\\alerts' => $baseDir . '/src/alerts.php',
+    'douggonsouza\\genalerts\\alertsInterface' => $baseDir . '/src/alertsInterface.php',
 );

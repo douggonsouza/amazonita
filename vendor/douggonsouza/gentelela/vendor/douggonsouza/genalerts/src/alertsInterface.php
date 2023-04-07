@@ -1,6 +1,6 @@
 <?php
 
-namespace douggonsouza\alerts;
+namespace douggonsouza\genalerts;
 
 interface alertsInterface
 {

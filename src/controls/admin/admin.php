@@ -1,6 +1,6 @@
 <?php
 
-namespace douggonsouza\discovery\controls\admin;
+namespace douggonsouza\imwvg\controls\admin;
 
 use douggonsouza\routes\router;
 use douggonsouza\mvc\control\controllers;

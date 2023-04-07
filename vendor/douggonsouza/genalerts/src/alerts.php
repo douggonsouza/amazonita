@@ -1,8 +1,8 @@
 <?php
 
-namespace douggonsouza\alerts;
+namespace douggonsouza\genalerts;
 
-use douggonsouza\alerts\alertsInterface;
+use douggonsouza\genalerts\genalertsInterface;
 
 class alerts implements alertsInterface
 {

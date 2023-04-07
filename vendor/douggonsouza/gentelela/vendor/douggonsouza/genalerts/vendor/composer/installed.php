@@ -3,7 +3,7 @@
         'name' => 'douggonsouza/genalerts',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '9045e872e65f03fc1ddfd2a210f32a40eb1768f5',
+        'reference' => 'bf4371b763592695e34fdadfa17381fe8718fb91',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -13,7 +13,7 @@
         'douggonsouza/genalerts' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '9045e872e65f03fc1ddfd2a210f32a40eb1768f5',
+            'reference' => 'bf4371b763592695e34fdadfa17381fe8718fb91',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

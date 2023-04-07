@@ -2,7 +2,7 @@
 
 namespace douggonsouza\gentelela;
 
-use douggonsouza\gentelela\alertsInterface;
+use douggonsouza\gentelela\genalertsInterface;
 
 class alerts implements alertsInterface
 {

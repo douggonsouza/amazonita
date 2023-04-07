@@ -1,8 +1,8 @@
 <?php
 
 use douggonsouza\routes\router;
-use douggonsouza\discovery\controls\login;
-use douggonsouza\discovery\controls\admin\dashboard;
+use douggonsouza\imwvg\controls\login;
+use douggonsouza\imwvg\controls\admin\dashboard;
 
 router::routing(
     'GET', 

@@ -1,12 +1,12 @@
 <?php
 
-namespace douggonsouza\discovery\controls\admin;
+namespace douggonsouza\imwvg\controls\admin;
 
 use douggonsouza\mvc\control\actInterface;
 use douggonsouza\propertys\propertysInterface;
-use douggonsouza\discovery\controls\admin\admin;
-use douggonsouza\permission\models\menu;
-use douggonsouza\permission\permission as permissionLib;
+use douggonsouza\imwvg\controls\admin\admin;
+use douggonsouza\genpermissions\models\menu;
+use douggonsouza\genpermissions\genpermissions as permissionLib;
 use douggonsouza\gentelela\benchmarck;
 
 class menus extends admin implements actInterface

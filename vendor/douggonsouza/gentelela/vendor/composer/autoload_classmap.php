@@ -7,6 +7,18 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
+    'douggonsouza\\genalerts\\alerts' => $vendorDir . '/douggonsouza/genalerts/src/alerts.php',
+    'douggonsouza\\genalerts\\alertsInterface' => $vendorDir . '/douggonsouza/genalerts/src/alertsInterface.php',
+    'douggonsouza\\genpermissions\\controls\\menus' => $vendorDir . '/douggonsouza/genpermissions/src/controls/menus.php',
+    'douggonsouza\\genpermissions\\controls\\papers' => $vendorDir . '/douggonsouza/genpermissions/src/controls/papers.php',
+    'douggonsouza\\genpermissions\\controls\\permissions' => $vendorDir . '/douggonsouza/genpermissions/src/controls/permissions.php',
+    'douggonsouza\\genpermissions\\controls\\permissions_types' => $vendorDir . '/douggonsouza/genpermissions/src/controls/permissions_types.php',
+    'douggonsouza\\genpermissions\\controls\\sidebar' => $vendorDir . '/douggonsouza/genpermissions/src/controls/sidebar.php',
+    'douggonsouza\\genpermissions\\models\\menu' => $vendorDir . '/douggonsouza/genpermissions/src/models/menu.php',
+    'douggonsouza\\genpermissions\\models\\paper' => $vendorDir . '/douggonsouza/genpermissions/src/models/paper.php',
+    'douggonsouza\\genpermissions\\models\\permission' => $vendorDir . '/douggonsouza/genpermissions/src/models/permission.php',
+    'douggonsouza\\genpermissions\\models\\permission_type' => $vendorDir . '/douggonsouza/genpermissions/src/models/permission_type.php',
+    'douggonsouza\\genpermissions\\permission' => $vendorDir . '/douggonsouza/genpermissions/src/permission.php',
     'douggonsouza\\gentelela\\alerts' => $baseDir . '/src/alerts.php',
     'douggonsouza\\gentelela\\alertsInterface' => $baseDir . '/src/alertsInterface.php',
     'douggonsouza\\gentelela\\assets\\assets' => $baseDir . '/src/assets/assets.php',

@@ -1,8 +1,8 @@
 <?php
 
-namespace douggonsouza\discovery\controls\admin;
+namespace douggonsouza\imwvg\controls\admin;
 
-use douggonsouza\discovery\controls\admin\admin;
+use douggonsouza\imwvg\controls\admin\admin;
 use douggonsouza\propertys\propertysInterface;
 use douggonsouza\mvc\control\controllersInterface;
 use douggonsouza\mvc\view\views;

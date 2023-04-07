@@ -1,12 +1,12 @@
 <?php
 
-namespace douggonsouza\discovery\controls\api;
+namespace douggonsouza\imwvg\controls\api;
 
 use douggonsouza\mvc\control\actInterface;
 use douggonsouza\propertys\propertysInterface;
-use douggonsouza\discovery\controls\admin\admin;
+use douggonsouza\imwvg\controls\admin\admin;
 use douggonsouza\mvc\control\act;
-use douggonsouza\discovery\models\accessPage;
+use douggonsouza\imwvg\models\accessPage;
 use douggonsouza\gentelela\benchmarck;
 use douggonsouza\routes\router;
 

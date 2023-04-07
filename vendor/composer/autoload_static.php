@@ -16,16 +16,13 @@ class ComposerStaticInit7229da4a3a2e19ab8c0e7dc95f540dc2
             'douggonsouza\\mvc\\' => 17,
             'douggonsouza\\logged\\' => 20,
             'douggonsouza\\language\\' => 22,
+            'douggonsouza\\imwvg\\' => 19,
             'douggonsouza\\html\\' => 18,
             'douggonsouza\\gentelela\\' => 23,
             'douggonsouza\\genpermissions\\' => 28,
             'douggonsouza\\genalerts\\' => 23,
             'douggonsouza\\etl\\' => 17,
             'douggonsouza\\downloads\\' => 23,
-        ),
-        'D' => 
-        array (
-            'Douggonsouza\\Imwvg\\' => 19,
         ),
     );
 
@@ -58,6 +55,10 @@ class ComposerStaticInit7229da4a3a2e19ab8c0e7dc95f540dc2
         array (
             0 => __DIR__ . '/..' . '/douggonsouza/language/src',
         ),
+        'douggonsouza\\imwvg\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src',
+        ),
         'douggonsouza\\html\\' => 
         array (
             0 => __DIR__ . '/..' . '/douggonsouza/html/src',
@@ -82,14 +83,22 @@ class ComposerStaticInit7229da4a3a2e19ab8c0e7dc95f540dc2
         array (
             0 => __DIR__ . '/..' . '/douggonsouza/downloads/src',
         ),
-        'Douggonsouza\\Imwvg\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/src',
-        ),
     );
 
     public static $classMap = array (
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
+        'douggonsouza\\genalerts\\alerts' => __DIR__ . '/..' . '/douggonsouza/genalerts/src/alerts.php',
+        'douggonsouza\\genalerts\\alertsInterface' => __DIR__ . '/..' . '/douggonsouza/genalerts/src/alertsInterface.php',
+        'douggonsouza\\genpermissions\\controls\\menus' => __DIR__ . '/..' . '/douggonsouza/genpermissions/src/controls/menus.php',
+        'douggonsouza\\genpermissions\\controls\\papers' => __DIR__ . '/..' . '/douggonsouza/genpermissions/src/controls/papers.php',
+        'douggonsouza\\genpermissions\\controls\\permissions' => __DIR__ . '/..' . '/douggonsouza/genpermissions/src/controls/permissions.php',
+        'douggonsouza\\genpermissions\\controls\\permissions_types' => __DIR__ . '/..' . '/douggonsouza/genpermissions/src/controls/permissions_types.php',
+        'douggonsouza\\genpermissions\\controls\\sidebar' => __DIR__ . '/..' . '/douggonsouza/genpermissions/src/controls/sidebar.php',
+        'douggonsouza\\genpermissions\\models\\menu' => __DIR__ . '/..' . '/douggonsouza/genpermissions/src/models/menu.php',
+        'douggonsouza\\genpermissions\\models\\paper' => __DIR__ . '/..' . '/douggonsouza/genpermissions/src/models/paper.php',
+        'douggonsouza\\genpermissions\\models\\permission' => __DIR__ . '/..' . '/douggonsouza/genpermissions/src/models/permission.php',
+        'douggonsouza\\genpermissions\\models\\permission_type' => __DIR__ . '/..' . '/douggonsouza/genpermissions/src/models/permission_type.php',
+        'douggonsouza\\genpermissions\\permission' => __DIR__ . '/..' . '/douggonsouza/genpermissions/src/permission.php',
         'douggonsouza\\gentelela\\alerts' => __DIR__ . '/..' . '/douggonsouza/gentelela/src/alerts.php',
         'douggonsouza\\gentelela\\alertsInterface' => __DIR__ . '/..' . '/douggonsouza/gentelela/src/alertsInterface.php',
         'douggonsouza\\gentelela\\assets\\assets' => __DIR__ . '/..' . '/douggonsouza/gentelela/src/assets/assets.php',
@@ -107,6 +116,14 @@ class ComposerStaticInit7229da4a3a2e19ab8c0e7dc95f540dc2
         'douggonsouza\\html\\tags\\tagsInterface' => __DIR__ . '/..' . '/douggonsouza/html/src/tags/tagsInterface.php',
         'douggonsouza\\html\\tags\\text' => __DIR__ . '/..' . '/douggonsouza/html/src/tags/text.php',
         'douggonsouza\\html\\tags\\textInline' => __DIR__ . '/..' . '/douggonsouza/html/src/tags/textInline.php',
+        'douggonsouza\\imwvg\\controls\\admin\\admin' => __DIR__ . '/../..' . '/src/controls/admin/admin.php',
+        'douggonsouza\\imwvg\\controls\\admin\\dashboard' => __DIR__ . '/../..' . '/src/controls/admin/dashboard.php',
+        'douggonsouza\\imwvg\\controls\\admin\\menus' => __DIR__ . '/../..' . '/src/controls/admin/menus.php',
+        'douggonsouza\\imwvg\\controls\\admin\\papers' => __DIR__ . '/../..' . '/src/controls/admin/papers.php',
+        'douggonsouza\\imwvg\\controls\\admin\\perfil' => __DIR__ . '/../..' . '/src/controls/admin/perfil.php',
+        'douggonsouza\\imwvg\\controls\\admin\\permissions' => __DIR__ . '/../..' . '/src/controls/admin/permissions.php',
+        'douggonsouza\\imwvg\\controls\\api\\accesses' => __DIR__ . '/../..' . '/src/controls/api/accesses.php',
+        'douggonsouza\\imwvg\\controls\\login' => __DIR__ . '/../..' . '/src/controls/login.php',
         'douggonsouza\\language\\language' => __DIR__ . '/..' . '/douggonsouza/language/src/language.php',
         'douggonsouza\\language\\languageInterface' => __DIR__ . '/..' . '/douggonsouza/language/src/languageInterface.php',
         'douggonsouza\\logged\\logged' => __DIR__ . '/..' . '/douggonsouza/logged/src/logged.php',
@@ -123,19 +140,11 @@ class ComposerStaticInit7229da4a3a2e19ab8c0e7dc95f540dc2
         'douggonsouza\\mvc\\model\\configs' => __DIR__ . '/..' . '/douggonsouza/mvc/src/model/configs.php',
         'douggonsouza\\mvc\\model\\connection\\conn' => __DIR__ . '/..' . '/douggonsouza/mvc/src/model/connection/conn.php',
         'douggonsouza\\mvc\\model\\connection\\connInterface' => __DIR__ . '/..' . '/douggonsouza/mvc/src/model/connection/connInterface.php',
-        'douggonsouza\\mvc\\model\\factoryInterface' => __DIR__ . '/..' . '/douggonsouza/mvc/src/model/factoryInterface.php',
         'douggonsouza\\mvc\\model\\helps' => __DIR__ . '/..' . '/douggonsouza/mvc/src/model/helps.php',
-        'douggonsouza\\mvc\\model\\model' => __DIR__ . '/..' . '/douggonsouza/mvc/src/model/model.php',
-        'douggonsouza\\mvc\\model\\modelInterface' => __DIR__ . '/..' . '/douggonsouza/mvc/src/model/modelInterface.php',
-        'douggonsouza\\mvc\\model\\resource\\records' => __DIR__ . '/..' . '/douggonsouza/mvc/src/model/resource/records.php',
-        'douggonsouza\\mvc\\model\\resource\\recordsInterface' => __DIR__ . '/..' . '/douggonsouza/mvc/src/model/resource/recordsInterface.php',
-        'douggonsouza\\mvc\\model\\resource\\resource' => __DIR__ . '/..' . '/douggonsouza/mvc/src/model/resource/resource.php',
-        'douggonsouza\\mvc\\model\\resource\\resourceInterface' => __DIR__ . '/..' . '/douggonsouza/mvc/src/model/resource/resourceInterface.php',
         'douggonsouza\\mvc\\model\\resource\\source' => __DIR__ . '/..' . '/douggonsouza/mvc/src/model/resource/source.php',
         'douggonsouza\\mvc\\model\\resource\\sourceInterface' => __DIR__ . '/..' . '/douggonsouza/mvc/src/model/resource/sourceInterface.php',
         'douggonsouza\\mvc\\model\\table' => __DIR__ . '/..' . '/douggonsouza/mvc/src/model/table.php',
         'douggonsouza\\mvc\\model\\tableInterface' => __DIR__ . '/..' . '/douggonsouza/mvc/src/model/tableInterface.php',
-        'douggonsouza\\mvc\\model\\utils' => __DIR__ . '/..' . '/douggonsouza/mvc/src/model/utils.php',
         'douggonsouza\\mvc\\model\\validate\\isdatetime' => __DIR__ . '/..' . '/douggonsouza/mvc/src/model/validate/isdatetime.php',
         'douggonsouza\\mvc\\model\\validate\\isemail' => __DIR__ . '/..' . '/douggonsouza/mvc/src/model/validate/isemail.php',
         'douggonsouza\\mvc\\model\\validate\\isnumber' => __DIR__ . '/..' . '/douggonsouza/mvc/src/model/validate/isnumber.php',
