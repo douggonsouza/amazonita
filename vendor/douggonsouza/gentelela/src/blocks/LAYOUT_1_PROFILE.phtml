@@ -1,0 +1,11 @@
+<?php 
+    use douggonsouza\routes\router;
+    use douggonsouza\gentelela\assets\assets;
+?>
+            <div class="profile_pic">
+                <img src="<?= router::assets("/gentelela/production/images/img.jpg", assets::ABSOLUTE_URL) ?>" alt="<?= router::label("imagem"); ?>" class="img-circle profile_img">
+            </div>
+            <div class="profile_info">
+                <span>Welcome,</span>
+                <h2>John Doe</h2>
+            </div>

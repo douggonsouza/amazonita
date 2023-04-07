@@ -1,0 +1,15 @@
+{
+    "name": "douggonsouza/logged",
+    "description": "Loga e desloga usuário da sessão",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "douggonsouza\\logged\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "douggonsouza/propertys": "^1.0.0"
+    }
+}

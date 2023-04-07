@@ -1,0 +1,19 @@
+{
+    "name": "douggonsouza/etl",
+    "description": "Agendamento de processos sistêmicos",
+    "type": "library",
+    "license": "Mit",
+    "autoload": {
+        "psr-4": {
+            "douggonsouza\\etl\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Douglas G. de Souza",
+            "email": "douggonsouza@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}

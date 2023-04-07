@@ -1,0 +1,56 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "479c4196b8b8a3019c1859ae6930ae09",
+    "packages": [
+        {
+            "name": "douggonsouza/propertys",
+            "version": "v1.0.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/douggonsouza/propertys.git",
+                "reference": "c3199eea7030e6b867e58e87b438c669f25256a3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/douggonsouza/propertys/zipball/c3199eea7030e6b867e58e87b438c669f25256a3",
+                "reference": "c3199eea7030e6b867e58e87b438c669f25256a3",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "douggonsouza\\propertys\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Douglas Gonçalves de Souza",
+                    "email": "douggonsouza@gmail.com"
+                }
+            ],
+            "description": "Armazenagem das propriedades",
+            "support": {
+                "issues": "https://github.com/douggonsouza/propertys/issues",
+                "source": "https://github.com/douggonsouza/propertys/tree/v1.0.5"
+            },
+            "time": "2023-03-18T16:53:12+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}

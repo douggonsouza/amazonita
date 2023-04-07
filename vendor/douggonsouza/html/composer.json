@@ -1,0 +1,18 @@
+{
+    "name": "douggonsouza/html",
+    "description": "Preenchimento automático para página de marcação",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "douggonsouza\\html\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Douglas Gonçalves de Souza",
+            "email": "douggonsouza@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}

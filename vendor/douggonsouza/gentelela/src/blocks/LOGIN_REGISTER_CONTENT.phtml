@@ -1,0 +1,43 @@
+<?php 
+    use douggonsouza\routes\router;
+    use douggonsouza\gentelela\assets\assets;
+    use douggonsouza\mvc\control\controllers;
+?>
+            <form>
+              <h1>Create Account</h1>
+              <div>
+                <input type="text" class="form-control" placeholder="Username" required="" />
+              </div>
+              <div>
+                <input type="email" class="form-control" placeholder="Email" required="" />
+              </div>
+              <div>
+                <input type="password" class="form-control" placeholder="Password" required="" />
+              </div>
+              <div>
+                <a class="btn btn-default submit" href="<?= router::label('#') ?>">Submit</a>
+              </div>
+
+              <div class="clearfix"></div>
+
+              <div class="separator">
+                <p class="change_link">Already a member ?
+                  <a href="<?= router::label('#signin'); ?>" class="to_register"> Log in </a>
+                </p>
+
+                <div class="clearfix"></div>
+                <br />
+
+                <div>
+
+                  <!-- DISCOVERY START BLOCK : COPYRIGHT -->
+
+                  <?php
+                      router::part(new controllers(COPYRIGHT));
+                  ?>
+                
+                  <!-- DISCOVERY END BLOCK -->
+
+                </div>
+              </div>
+            </form>

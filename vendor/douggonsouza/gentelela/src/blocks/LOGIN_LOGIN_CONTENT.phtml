@@ -1,0 +1,43 @@
+<?php 
+    use douggonsouza\routes\router;
+    use douggonsouza\gentelela\assets\assets;
+    use douggonsouza\mvc\control\controllers;
+?>
+            <form action="" method="POST" enctype="multipart/form-data">
+              <h1>Login Form</h1>
+              <div>
+                <input type="email" name="email" class="form-control" placeholder="<?= router::label('E-mail'); ?>" required="required" />
+              </div>
+              <div>
+                <input type="password" name="password" class="form-control" placeholder="<?= router::label('Senha'); ?>" required="required" />
+              </div>
+              <div>
+                <input type="hidden" class="form-control" name="pub_key" value="bG9naW5fZm9ybQ==" />
+                <button type="submit" class="btn btn-round btn-primary"><?= router::label('Entrar'); ?></button>
+                <!-- <a class="btn btn-default submit" href="<?= router::label('#'); ?>"><?= router::label('Entrar'); ?></a> -->
+                <a class="reset_pass" href="<?= router::label('#'); ?>"><?= router::label('Pedeu a Senha?'); ?></a>
+              </div>
+              
+              <div class="clearfix"></div>
+
+              <div class="separator">
+                <p class="change_link"><?= router::label('Novo no site?'); ?>
+                  <a href="<?= router::label('#signup'); ?>" class="to_register"> <?= router::label('Criar conta.'); ?> </a>
+                </p>
+
+                <div class="clearfix"></div>
+                <br />
+
+                <div>
+
+                  <!-- DISCOVERY START BLOCK : COPYRIGHT -->
+
+                  <?php
+                      router::part(new controllers(COPYRIGHT));
+                  ?>
+                
+                  <!-- DISCOVERY END BLOCK -->
+
+                </div>
+              </div>
+            </form>

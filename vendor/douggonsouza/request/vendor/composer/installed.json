@@ -1,0 +1,46 @@
+{
+    "packages": [
+        {
+            "name": "douggonsouza/regexed",
+            "version": "v1.0.3",
+            "version_normalized": "1.0.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/douggonsouza/regexed.git",
+                "reference": "1fb7b7e2b9c671edd694332a74cf7304d8f76bda"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/douggonsouza/regexed/zipball/1fb7b7e2b9c671edd694332a74cf7304d8f76bda",
+                "reference": "1fb7b7e2b9c671edd694332a74cf7304d8f76bda",
+                "shasum": ""
+            },
+            "time": "2022-09-16T23:57:21+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "douggonsouza\\regexed\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Douglas Gonçalves de Souza",
+                    "email": "douggonsouza@gmail.com"
+                }
+            ],
+            "description": "Tradutor de palavras para expressões regex",
+            "support": {
+                "issues": "https://github.com/douggonsouza/regexed/issues",
+                "source": "https://github.com/douggonsouza/regexed/tree/v1.0.3"
+            },
+            "install-path": "../douggonsouza/regexed"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}
