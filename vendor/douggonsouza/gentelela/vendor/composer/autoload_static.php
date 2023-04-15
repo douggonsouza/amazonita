@@ -42,31 +42,6 @@ class ComposerStaticInit174f4cea62571bd2affc3a54a21e306d
 
     public static $classMap = array (
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
-        'douggonsouza\\genalerts\\alerts' => __DIR__ . '/..' . '/douggonsouza/genalerts/src/alerts.php',
-        'douggonsouza\\genalerts\\alertsInterface' => __DIR__ . '/..' . '/douggonsouza/genalerts/src/alertsInterface.php',
-        'douggonsouza\\genpermissions\\controls\\menus' => __DIR__ . '/..' . '/douggonsouza/genpermissions/src/controls/menus.php',
-        'douggonsouza\\genpermissions\\controls\\papers' => __DIR__ . '/..' . '/douggonsouza/genpermissions/src/controls/papers.php',
-        'douggonsouza\\genpermissions\\controls\\permissions' => __DIR__ . '/..' . '/douggonsouza/genpermissions/src/controls/permissions.php',
-        'douggonsouza\\genpermissions\\controls\\permissions_types' => __DIR__ . '/..' . '/douggonsouza/genpermissions/src/controls/permissions_types.php',
-        'douggonsouza\\genpermissions\\controls\\sidebar' => __DIR__ . '/..' . '/douggonsouza/genpermissions/src/controls/sidebar.php',
-        'douggonsouza\\genpermissions\\models\\menu' => __DIR__ . '/..' . '/douggonsouza/genpermissions/src/models/menu.php',
-        'douggonsouza\\genpermissions\\models\\paper' => __DIR__ . '/..' . '/douggonsouza/genpermissions/src/models/paper.php',
-        'douggonsouza\\genpermissions\\models\\permission' => __DIR__ . '/..' . '/douggonsouza/genpermissions/src/models/permission.php',
-        'douggonsouza\\genpermissions\\models\\permission_type' => __DIR__ . '/..' . '/douggonsouza/genpermissions/src/models/permission_type.php',
-        'douggonsouza\\genpermissions\\permission' => __DIR__ . '/..' . '/douggonsouza/genpermissions/src/permission.php',
-        'douggonsouza\\gentelela\\alerts' => __DIR__ . '/../..' . '/src/alerts.php',
-        'douggonsouza\\gentelela\\alertsInterface' => __DIR__ . '/../..' . '/src/alertsInterface.php',
-        'douggonsouza\\gentelela\\assets\\assets' => __DIR__ . '/../..' . '/src/assets/assets.php',
-        'douggonsouza\\gentelela\\behaviorInterface' => __DIR__ . '/../..' . '/src/behaviorInterface.php',
-        'douggonsouza\\gentelela\\benchmarck' => __DIR__ . '/../..' . '/src/benchmarck.php',
-        'douggonsouza\\gentelela\\benchmarckInterface' => __DIR__ . '/../..' . '/src/benchmarckInterface.php',
-        'douggonsouza\\gentelela\\blocks\\blocks' => __DIR__ . '/../..' . '/src/blocks/blocks.php',
-        'douggonsouza\\gentelela\\controls\\alert' => __DIR__ . '/../..' . '/src/controls/alert.php',
-        'douggonsouza\\gentelela\\identify' => __DIR__ . '/../..' . '/src/identify.php',
-        'douggonsouza\\language\\language' => __DIR__ . '/..' . '/douggonsouza/language/src/language.php',
-        'douggonsouza\\language\\languageInterface' => __DIR__ . '/..' . '/douggonsouza/language/src/languageInterface.php',
-        'douggonsouza\\propertys\\propertys' => __DIR__ . '/..' . '/douggonsouza/propertys/src/propertys.php',
-        'douggonsouza\\propertys\\propertysInterface' => __DIR__ . '/..' . '/douggonsouza/propertys/src/propertysInterface.php',
     );
 
     public static function getInitializer(ClassLoader $loader)

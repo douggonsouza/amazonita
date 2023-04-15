@@ -9,8 +9,8 @@ use douggonsouza\gentelela\assets\assets;
 use douggonsouza\gentelela\blocks\blocks;
 use douggonsouza\gentelela\layouts\layouts;
 use douggonsouza\language\languageInterface;
-use douggonsouza\gentelela\genalerts;
-use douggonsouza\gentelela\genalertsInterface;
+use douggonsouza\gentelela\alerts;
+use douggonsouza\gentelela\alertsInterface;
 
 final class benchmarck implements benchmarckInterface
 {

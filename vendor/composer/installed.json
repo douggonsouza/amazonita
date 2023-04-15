@@ -162,17 +162,17 @@
         },
         {
             "name": "douggonsouza/gentelela",
-            "version": "1.0.10",
-            "version_normalized": "1.0.10.0",
+            "version": "1.0.11",
+            "version_normalized": "1.0.11.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/douggonsouza/gentelela.git",
-                "reference": "fa2615aef8518123086b77bd9ba81018aff71831"
+                "reference": "7af390f2e6577f64d7bb852698fff062e86f3f62"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/douggonsouza/gentelela/zipball/fa2615aef8518123086b77bd9ba81018aff71831",
-                "reference": "fa2615aef8518123086b77bd9ba81018aff71831",
+                "url": "https://api.github.com/repos/douggonsouza/gentelela/zipball/7af390f2e6577f64d7bb852698fff062e86f3f62",
+                "reference": "7af390f2e6577f64d7bb852698fff062e86f3f62",
                 "shasum": ""
             },
             "require": {
@@ -181,7 +181,7 @@
                 "douggonsouza/language": "^1.0.0",
                 "douggonsouza/propertys": "^1.0.0"
             },
-            "time": "2023-04-07T23:55:07+00:00",
+            "time": "2023-04-15T03:14:24+00:00",
             "type": "library",
             "installation-source": "dist",
             "autoload": {
@@ -202,7 +202,7 @@
             "description": "Benchmarck para o template Gentelela",
             "support": {
                 "issues": "https://github.com/douggonsouza/gentelela/issues",
-                "source": "https://github.com/douggonsouza/gentelela/tree/1.0.10"
+                "source": "https://github.com/douggonsouza/gentelela/tree/1.0.11"
             },
             "install-path": "../douggonsouza/gentelela"
         },
@@ -325,23 +325,23 @@
         },
         {
             "name": "douggonsouza/mvc",
-            "version": "v1.0.18",
-            "version_normalized": "1.0.18.0",
+            "version": "v1.0.19",
+            "version_normalized": "1.0.19.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/douggonsouza/mvc.git",
-                "reference": "4f548a0f657188a56882f999c9ca754c4343c0dc"
+                "reference": "e040790528775321d550410c53f839e907cd7791"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/douggonsouza/mvc/zipball/4f548a0f657188a56882f999c9ca754c4343c0dc",
-                "reference": "4f548a0f657188a56882f999c9ca754c4343c0dc",
+                "url": "https://api.github.com/repos/douggonsouza/mvc/zipball/e040790528775321d550410c53f839e907cd7791",
+                "reference": "e040790528775321d550410c53f839e907cd7791",
                 "shasum": ""
             },
             "require": {
                 "douggonsouza/propertys": "^1.0.0"
             },
-            "time": "2023-04-07T23:50:15+00:00",
+            "time": "2023-04-15T03:04:21+00:00",
             "type": "library",
             "installation-source": "dist",
             "autoload": {
@@ -362,7 +362,7 @@
             "description": "Processo de resposta tipo Model, View e Control",
             "support": {
                 "issues": "https://github.com/douggonsouza/mvc/issues",
-                "source": "https://github.com/douggonsouza/mvc/tree/v1.0.18"
+                "source": "https://github.com/douggonsouza/mvc/tree/v1.0.19"
             },
             "install-path": "../douggonsouza/mvc"
         },
@@ -492,23 +492,23 @@
         },
         {
             "name": "douggonsouza/routes",
-            "version": "v1.0.21",
-            "version_normalized": "1.0.21.0",
+            "version": "v1.0.22",
+            "version_normalized": "1.0.22.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/douggonsouza/routes.git",
-                "reference": "03b45da0aa09208f7f73caad65e3d1e90259fcd7"
+                "reference": "6a21b924038728f8d120702a2de4771de3d3d433"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/douggonsouza/routes/zipball/03b45da0aa09208f7f73caad65e3d1e90259fcd7",
-                "reference": "03b45da0aa09208f7f73caad65e3d1e90259fcd7",
+                "url": "https://api.github.com/repos/douggonsouza/routes/zipball/6a21b924038728f8d120702a2de4771de3d3d433",
+                "reference": "6a21b924038728f8d120702a2de4771de3d3d433",
                 "shasum": ""
             },
             "require": {
                 "douggonsouza/regexed": "^1.0.0"
             },
-            "time": "2023-04-07T23:52:28+00:00",
+            "time": "2023-04-09T12:25:06+00:00",
             "type": "library",
             "installation-source": "dist",
             "autoload": {
@@ -529,7 +529,7 @@
             "description": "Gerenciamento das rotas para a requisição",
             "support": {
                 "issues": "https://github.com/douggonsouza/routes/issues",
-                "source": "https://github.com/douggonsouza/routes/tree/v1.0.21"
+                "source": "https://github.com/douggonsouza/routes/tree/v1.0.22"
             },
             "install-path": "../douggonsouza/routes"
         }
