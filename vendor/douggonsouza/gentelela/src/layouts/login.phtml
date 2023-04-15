@@ -1,0 +1,86 @@
+<?php 
+    use douggonsouza\routes\router;
+    use douggonsouza\mvc\control\controllers;
+    use douggonsouza\imwvg\controls\login;
+    use douggonsouza\gentelela\controls\alert;
+?>
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+
+    <!-- DISCOVERY START BLOCK : HEAD -->
+
+    <?php
+        router::part(new controllers(HEAD));
+    ?>
+
+    <!-- DISCOVERY END BLOCK -->
+
+    <!-- DISCOVERY START BLOCK : CSS -->
+
+    <?php
+        router::part(new controllers(CSS));
+    ?>
+
+    <!-- DISCOVERY END BLOCK -->
+  </head>
+
+  <body class="login">
+    <div>
+
+      <!-- DISCOVERY START BLOCK : ALERTS -->
+
+      <?php
+          router::part(new alert(ALERTS));
+        ?>
+
+        <!-- DISCOVERY END BLOCK -->
+
+    </div>
+    <div>
+      <a class="hiddenanchor" id="signup"></a>
+      <a class="hiddenanchor" id="signin"></a>
+
+      <div class="login_wrapper">
+
+        <div class="animate form login_form">
+          <section class="login_content">
+
+            <!-- DISCOVERY START BLOCK : LOGIN_LOGIN_CONTENT -->
+
+            <?php
+                router::part(new controllers(LOGIN_LOGIN_CONTENT));
+            ?>
+
+            <!-- DISCOVERY END BLOCK -->
+
+
+          </section>
+        </div>
+
+        <div id="register" class="animate form registration_form">
+          <section class="login_content">
+
+            <!-- DISCOVERY START BLOCK : LOGIN_REGISTER_CONTENT -->
+
+            <?php
+                router::part(new controllers(LOGIN_REGISTER_CONTENT));
+            ?>
+
+            <!-- DISCOVERY END BLOCK -->
+
+          </section>
+        </div>
+      </div>
+    </div>
+
+    <!-- DISCOVERY START BLOCK : JS -->
+
+    <?php
+        router::part(new controllers(JS));
+    ?>
+
+    <!-- DISCOVERY END BLOCK -->
+
+  </body>
+</html>

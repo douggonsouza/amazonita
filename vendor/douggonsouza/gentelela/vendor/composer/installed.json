@@ -1,0 +1,166 @@
+{
+    "packages": [
+        {
+            "name": "douggonsouza/genalerts",
+            "version": "1.0.3",
+            "version_normalized": "1.0.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/douggonsouza/genalerts.git",
+                "reference": "1f2eb05cd7f64a4fa38f8f978d989f3ddfe4a99f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/douggonsouza/genalerts/zipball/1f2eb05cd7f64a4fa38f8f978d989f3ddfe4a99f",
+                "reference": "1f2eb05cd7f64a4fa38f8f978d989f3ddfe4a99f",
+                "shasum": ""
+            },
+            "time": "2023-04-07T23:39:50+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "douggonsouza\\genalerts\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Douglas Gonçalves de Souza",
+                    "email": "douggonsouza@gmail.com"
+                }
+            ],
+            "description": "MVC de alertas para o template Gentelela",
+            "support": {
+                "issues": "https://github.com/douggonsouza/genalerts/issues",
+                "source": "https://github.com/douggonsouza/genalerts/tree/1.0.3"
+            },
+            "install-path": "../douggonsouza/genalerts"
+        },
+        {
+            "name": "douggonsouza/genpermissions",
+            "version": "1.0.2",
+            "version_normalized": "1.0.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/douggonsouza/genpermissions.git",
+                "reference": "8fb823ba9ab4eff89fea1bec6f5cd18bb50b4af9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/douggonsouza/genpermissions/zipball/8fb823ba9ab4eff89fea1bec6f5cd18bb50b4af9",
+                "reference": "8fb823ba9ab4eff89fea1bec6f5cd18bb50b4af9",
+                "shasum": ""
+            },
+            "time": "2023-04-07T23:41:57+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "douggonsouza\\genpermissions\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Douglas Gonçalves de Souza",
+                    "email": "douggonsouza@gmail.com"
+                }
+            ],
+            "description": "MVC de permissões para o template Gentelela",
+            "support": {
+                "issues": "https://github.com/douggonsouza/genpermissions/issues",
+                "source": "https://github.com/douggonsouza/genpermissions/tree/1.0.2"
+            },
+            "install-path": "../douggonsouza/genpermissions"
+        },
+        {
+            "name": "douggonsouza/language",
+            "version": "v1.0.5",
+            "version_normalized": "1.0.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/douggonsouza/language.git",
+                "reference": "a2a4e0e37bf7c342a7a480fda2b7609fdcbc8856"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/douggonsouza/language/zipball/a2a4e0e37bf7c342a7a480fda2b7609fdcbc8856",
+                "reference": "a2a4e0e37bf7c342a7a480fda2b7609fdcbc8856",
+                "shasum": ""
+            },
+            "time": "2023-02-21T23:10:12+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "douggonsouza\\language\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Douglas Gonçalves de Souza",
+                    "email": "douggonsouza@gmail.com"
+                }
+            ],
+            "description": "Expõe o valor da etiqueta para uma linguagem",
+            "support": {
+                "issues": "https://github.com/douggonsouza/language/issues",
+                "source": "https://github.com/douggonsouza/language/tree/v1.0.5"
+            },
+            "install-path": "../douggonsouza/language"
+        },
+        {
+            "name": "douggonsouza/propertys",
+            "version": "v1.0.5",
+            "version_normalized": "1.0.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/douggonsouza/propertys.git",
+                "reference": "c3199eea7030e6b867e58e87b438c669f25256a3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/douggonsouza/propertys/zipball/c3199eea7030e6b867e58e87b438c669f25256a3",
+                "reference": "c3199eea7030e6b867e58e87b438c669f25256a3",
+                "shasum": ""
+            },
+            "time": "2023-03-18T16:53:12+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "douggonsouza\\propertys\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Douglas Gonçalves de Souza",
+                    "email": "douggonsouza@gmail.com"
+                }
+            ],
+            "description": "Armazenagem das propriedades",
+            "support": {
+                "issues": "https://github.com/douggonsouza/propertys/issues",
+                "source": "https://github.com/douggonsouza/propertys/tree/v1.0.5"
+            },
+            "install-path": "../douggonsouza/propertys"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}

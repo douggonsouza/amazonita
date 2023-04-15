@@ -1,0 +1,539 @@
+{
+    "packages": [
+        {
+            "name": "douggonsouza/downloads",
+            "version": "v1.0.1",
+            "version_normalized": "1.0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/douggonsouza/downloads.git",
+                "reference": "0924cce38390c1f8860b3af1b929f955d63f7e6c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/douggonsouza/downloads/zipball/0924cce38390c1f8860b3af1b929f955d63f7e6c",
+                "reference": "0924cce38390c1f8860b3af1b929f955d63f7e6c",
+                "shasum": ""
+            },
+            "time": "2022-08-27T15:01:44+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "douggonsouza\\downloads\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Douglas G. de Souza",
+                    "email": "douggonsouza@gmail.com"
+                }
+            ],
+            "description": "Auxílio no download de arquivos",
+            "support": {
+                "issues": "https://github.com/douggonsouza/downloads/issues",
+                "source": "https://github.com/douggonsouza/downloads/tree/v1.0.1"
+            },
+            "install-path": "../douggonsouza/downloads"
+        },
+        {
+            "name": "douggonsouza/etl",
+            "version": "v1.0.0",
+            "version_normalized": "1.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/douggonsouza/etl.git",
+                "reference": "f32cb806ca3bd339932e8a52dad0b20f97d9517e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/douggonsouza/etl/zipball/f32cb806ca3bd339932e8a52dad0b20f97d9517e",
+                "reference": "f32cb806ca3bd339932e8a52dad0b20f97d9517e",
+                "shasum": ""
+            },
+            "time": "2022-12-15T11:12:34+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "douggonsouza\\etl\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Mit"
+            ],
+            "authors": [
+                {
+                    "name": "Douglas G. de Souza",
+                    "email": "douggonsouza@gmail.com"
+                }
+            ],
+            "description": "Agendamento de processos sistêmicos",
+            "support": {
+                "issues": "https://github.com/douggonsouza/etl/issues",
+                "source": "https://github.com/douggonsouza/etl/tree/v1.0.0"
+            },
+            "install-path": "../douggonsouza/etl"
+        },
+        {
+            "name": "douggonsouza/genalerts",
+            "version": "1.0.3",
+            "version_normalized": "1.0.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/douggonsouza/genalerts.git",
+                "reference": "1f2eb05cd7f64a4fa38f8f978d989f3ddfe4a99f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/douggonsouza/genalerts/zipball/1f2eb05cd7f64a4fa38f8f978d989f3ddfe4a99f",
+                "reference": "1f2eb05cd7f64a4fa38f8f978d989f3ddfe4a99f",
+                "shasum": ""
+            },
+            "time": "2023-04-07T23:39:50+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "douggonsouza\\genalerts\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Douglas Gonçalves de Souza",
+                    "email": "douggonsouza@gmail.com"
+                }
+            ],
+            "description": "MVC de alertas para o template Gentelela",
+            "support": {
+                "issues": "https://github.com/douggonsouza/genalerts/issues",
+                "source": "https://github.com/douggonsouza/genalerts/tree/1.0.3"
+            },
+            "install-path": "../douggonsouza/genalerts"
+        },
+        {
+            "name": "douggonsouza/genpermissions",
+            "version": "1.0.2",
+            "version_normalized": "1.0.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/douggonsouza/genpermissions.git",
+                "reference": "8fb823ba9ab4eff89fea1bec6f5cd18bb50b4af9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/douggonsouza/genpermissions/zipball/8fb823ba9ab4eff89fea1bec6f5cd18bb50b4af9",
+                "reference": "8fb823ba9ab4eff89fea1bec6f5cd18bb50b4af9",
+                "shasum": ""
+            },
+            "time": "2023-04-07T23:41:57+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "douggonsouza\\genpermissions\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Douglas Gonçalves de Souza",
+                    "email": "douggonsouza@gmail.com"
+                }
+            ],
+            "description": "MVC de permissões para o template Gentelela",
+            "support": {
+                "issues": "https://github.com/douggonsouza/genpermissions/issues",
+                "source": "https://github.com/douggonsouza/genpermissions/tree/1.0.2"
+            },
+            "install-path": "../douggonsouza/genpermissions"
+        },
+        {
+            "name": "douggonsouza/gentelela",
+            "version": "1.0.12",
+            "version_normalized": "1.0.12.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/douggonsouza/gentelela.git",
+                "reference": "b940027b9d0aa3423e2cbc26e212904c58a5ee77"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/douggonsouza/gentelela/zipball/b940027b9d0aa3423e2cbc26e212904c58a5ee77",
+                "reference": "b940027b9d0aa3423e2cbc26e212904c58a5ee77",
+                "shasum": ""
+            },
+            "require": {
+                "douggonsouza/genalerts": "^1.0.0",
+                "douggonsouza/genpermissions": "^1.0.0",
+                "douggonsouza/language": "^1.0.0",
+                "douggonsouza/propertys": "^1.0.0"
+            },
+            "time": "2023-04-15T14:26:56+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "douggonsouza\\gentelela\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Douglas Gonçalves de Souza",
+                    "email": "douggonsouza@gmail.com"
+                }
+            ],
+            "description": "Benchmarck para o template Gentelela",
+            "support": {
+                "issues": "https://github.com/douggonsouza/gentelela/issues",
+                "source": "https://github.com/douggonsouza/gentelela/tree/1.0.12"
+            },
+            "install-path": "../douggonsouza/gentelela"
+        },
+        {
+            "name": "douggonsouza/html",
+            "version": "v1.0.8",
+            "version_normalized": "1.0.8.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/douggonsouza/html.git",
+                "reference": "8904d929d52ccf62446b9a5971e82953f9bf4c23"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/douggonsouza/html/zipball/8904d929d52ccf62446b9a5971e82953f9bf4c23",
+                "reference": "8904d929d52ccf62446b9a5971e82953f9bf4c23",
+                "shasum": ""
+            },
+            "time": "2023-02-10T15:48:20+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "douggonsouza\\html\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Douglas Gonçalves de Souza",
+                    "email": "douggonsouza@gmail.com"
+                }
+            ],
+            "description": "Preenchimento automático para página de marcação",
+            "support": {
+                "issues": "https://github.com/douggonsouza/html/issues",
+                "source": "https://github.com/douggonsouza/html/tree/v1.0.8"
+            },
+            "install-path": "../douggonsouza/html"
+        },
+        {
+            "name": "douggonsouza/language",
+            "version": "v1.0.5",
+            "version_normalized": "1.0.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/douggonsouza/language.git",
+                "reference": "a2a4e0e37bf7c342a7a480fda2b7609fdcbc8856"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/douggonsouza/language/zipball/a2a4e0e37bf7c342a7a480fda2b7609fdcbc8856",
+                "reference": "a2a4e0e37bf7c342a7a480fda2b7609fdcbc8856",
+                "shasum": ""
+            },
+            "time": "2023-02-21T23:10:12+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "douggonsouza\\language\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Douglas Gonçalves de Souza",
+                    "email": "douggonsouza@gmail.com"
+                }
+            ],
+            "description": "Expõe o valor da etiqueta para uma linguagem",
+            "support": {
+                "issues": "https://github.com/douggonsouza/language/issues",
+                "source": "https://github.com/douggonsouza/language/tree/v1.0.5"
+            },
+            "install-path": "../douggonsouza/language"
+        },
+        {
+            "name": "douggonsouza/logged",
+            "version": "v1.0.9",
+            "version_normalized": "1.0.9.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/douggonsouza/logged.git",
+                "reference": "a31655357552ef94e42946ab1e4ec22e11ca2d82"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/douggonsouza/logged/zipball/a31655357552ef94e42946ab1e4ec22e11ca2d82",
+                "reference": "a31655357552ef94e42946ab1e4ec22e11ca2d82",
+                "shasum": ""
+            },
+            "require": {
+                "douggonsouza/propertys": "^1.0.0"
+            },
+            "time": "2023-04-07T23:47:49+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "douggonsouza\\logged\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Loga e desloga usuário da sessão",
+            "support": {
+                "issues": "https://github.com/douggonsouza/logged/issues",
+                "source": "https://github.com/douggonsouza/logged/tree/v1.0.9"
+            },
+            "install-path": "../douggonsouza/logged"
+        },
+        {
+            "name": "douggonsouza/mvc",
+            "version": "v1.0.19",
+            "version_normalized": "1.0.19.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/douggonsouza/mvc.git",
+                "reference": "e040790528775321d550410c53f839e907cd7791"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/douggonsouza/mvc/zipball/e040790528775321d550410c53f839e907cd7791",
+                "reference": "e040790528775321d550410c53f839e907cd7791",
+                "shasum": ""
+            },
+            "require": {
+                "douggonsouza/propertys": "^1.0.0"
+            },
+            "time": "2023-04-15T03:04:21+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "douggonsouza\\mvc\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Douglas Gonçalves de Souza",
+                    "email": "douggonsouza@gmail.com"
+                }
+            ],
+            "description": "Processo de resposta tipo Model, View e Control",
+            "support": {
+                "issues": "https://github.com/douggonsouza/mvc/issues",
+                "source": "https://github.com/douggonsouza/mvc/tree/v1.0.19"
+            },
+            "install-path": "../douggonsouza/mvc"
+        },
+        {
+            "name": "douggonsouza/propertys",
+            "version": "v1.0.5",
+            "version_normalized": "1.0.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/douggonsouza/propertys.git",
+                "reference": "c3199eea7030e6b867e58e87b438c669f25256a3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/douggonsouza/propertys/zipball/c3199eea7030e6b867e58e87b438c669f25256a3",
+                "reference": "c3199eea7030e6b867e58e87b438c669f25256a3",
+                "shasum": ""
+            },
+            "time": "2023-03-18T16:53:12+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "douggonsouza\\propertys\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Douglas Gonçalves de Souza",
+                    "email": "douggonsouza@gmail.com"
+                }
+            ],
+            "description": "Armazenagem das propriedades",
+            "support": {
+                "issues": "https://github.com/douggonsouza/propertys/issues",
+                "source": "https://github.com/douggonsouza/propertys/tree/v1.0.5"
+            },
+            "install-path": "../douggonsouza/propertys"
+        },
+        {
+            "name": "douggonsouza/regexed",
+            "version": "v1.0.3",
+            "version_normalized": "1.0.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/douggonsouza/regexed.git",
+                "reference": "1fb7b7e2b9c671edd694332a74cf7304d8f76bda"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/douggonsouza/regexed/zipball/1fb7b7e2b9c671edd694332a74cf7304d8f76bda",
+                "reference": "1fb7b7e2b9c671edd694332a74cf7304d8f76bda",
+                "shasum": ""
+            },
+            "time": "2022-09-16T23:57:21+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "douggonsouza\\regexed\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Douglas Gonçalves de Souza",
+                    "email": "douggonsouza@gmail.com"
+                }
+            ],
+            "description": "Tradutor de palavras para expressões regex",
+            "support": {
+                "issues": "https://github.com/douggonsouza/regexed/issues",
+                "source": "https://github.com/douggonsouza/regexed/tree/v1.0.3"
+            },
+            "install-path": "../douggonsouza/regexed"
+        },
+        {
+            "name": "douggonsouza/request",
+            "version": "v1.0.11",
+            "version_normalized": "1.0.11.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/douggonsouza/request.git",
+                "reference": "70e0f6d6c9f3c86a681036a7fb2991f7184d3d82"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/douggonsouza/request/zipball/70e0f6d6c9f3c86a681036a7fb2991f7184d3d82",
+                "reference": "70e0f6d6c9f3c86a681036a7fb2991f7184d3d82",
+                "shasum": ""
+            },
+            "require": {
+                "douggonsouza/regexed": "^1.0.0",
+                "php": "^7.2"
+            },
+            "time": "2023-03-10T11:30:06+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "douggonsouza\\request\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Douglas Gonçalves de Souza",
+                    "email": "douggonsouza@gmail.com"
+                }
+            ],
+            "description": "Tratamento da requisição e coleta de parâmetros para o roteamento",
+            "support": {
+                "issues": "https://github.com/douggonsouza/request/issues",
+                "source": "https://github.com/douggonsouza/request/tree/v1.0.11"
+            },
+            "install-path": "../douggonsouza/request"
+        },
+        {
+            "name": "douggonsouza/routes",
+            "version": "v1.0.22",
+            "version_normalized": "1.0.22.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/douggonsouza/routes.git",
+                "reference": "6a21b924038728f8d120702a2de4771de3d3d433"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/douggonsouza/routes/zipball/6a21b924038728f8d120702a2de4771de3d3d433",
+                "reference": "6a21b924038728f8d120702a2de4771de3d3d433",
+                "shasum": ""
+            },
+            "require": {
+                "douggonsouza/regexed": "^1.0.0"
+            },
+            "time": "2023-04-09T12:25:06+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "douggonsouza\\routes\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Douglas Gonçalves de Souza",
+                    "email": "douggonsouza@gmail.com"
+                }
+            ],
+            "description": "Gerenciamento das rotas para a requisição",
+            "support": {
+                "issues": "https://github.com/douggonsouza/routes/issues",
+                "source": "https://github.com/douggonsouza/routes/tree/v1.0.22"
+            },
+            "install-path": "../douggonsouza/routes"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}

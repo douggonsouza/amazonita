@@ -1,0 +1,29 @@
+{
+    "name": "douggonsouza/amazonita",
+    "description": "Projeto de framework PHP",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "douggonsouza\\imwvg\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Douglas Gonçalves de Souza",
+            "email": "douggonsouza@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "douggonsouza/request": "^1.0.0",
+        "douggonsouza/routes": "^1.0.0",
+        "douggonsouza/mvc": "^1.0.0",
+        "douggonsouza/logged": "^1.0.0",
+        "douggonsouza/downloads": "^1.0.0",
+        "douggonsouza/etl": "^1.0.0",
+        "douggonsouza/html": "^1.0.0",
+        "douggonsouza/gentelela": "^1.0.0",
+        "douggonsouza/language": "^1.0.0"
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "name": "douggonsouza/gentelela",
+    "description": "Benchmarck para o template Gentelela",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "douggonsouza\\gentelela\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Douglas Gonçalves de Souza",
+            "email": "douggonsouza@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "douggonsouza/propertys": "^1.0.0",
+        "douggonsouza/language": "^1.0.0",
+        "douggonsouza/genpermissions": "^1.0.0",
+        "douggonsouza/genalerts": "^1.0.0"
+    }
+}

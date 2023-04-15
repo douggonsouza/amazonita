@@ -1,0 +1,58 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "381e08a638df29ee20282a60515828fd",
+    "packages": [
+        {
+            "name": "douggonsouza/regexed",
+            "version": "v1.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/douggonsouza/regexed.git",
+                "reference": "1fb7b7e2b9c671edd694332a74cf7304d8f76bda"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/douggonsouza/regexed/zipball/1fb7b7e2b9c671edd694332a74cf7304d8f76bda",
+                "reference": "1fb7b7e2b9c671edd694332a74cf7304d8f76bda",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "douggonsouza\\regexed\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Douglas Gonçalves de Souza",
+                    "email": "douggonsouza@gmail.com"
+                }
+            ],
+            "description": "Tradutor de palavras para expressões regex",
+            "support": {
+                "issues": "https://github.com/douggonsouza/regexed/issues",
+                "source": "https://github.com/douggonsouza/regexed/tree/v1.0.3"
+            },
+            "time": "2022-09-16T23:57:21+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": "^7.2"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}
