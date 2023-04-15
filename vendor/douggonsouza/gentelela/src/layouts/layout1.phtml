@@ -3,6 +3,7 @@
     use douggonsouza\mvc\control\controllers;
     use douggonsouza\genpermissions\controls\sidebar;
     use douggonsouza\gentelela\controls\alert;
+    use douggonsouza\gentelela\assets\assets;
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -32,7 +33,7 @@
         <div class="col-md-3 left_col">
           <div class="left_col scroll-view">
             <div class="navbar nav_title" style="border: 0;">
-              <a href="<?= router::label('#'); ?>" class="site_title"><i class="fa fa-paw"></i> <span>Gentelella Alela!</span></a>
+              <a href="<?= router::label('#'); ?>" class="site_title"><span><img src="<?= router::assets("/gentelela/src/images/vl.png", assets::ABSOLUTE_URL) ?>" style="margin: 8px;" height="32" width="32" alt="<?= router::label('IMW') ?>"><?= router::label('Vila Guilherme') ?></span></a>
             </div>
 
             <div class="clearfix"></div>

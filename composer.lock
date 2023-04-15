@@ -156,16 +156,16 @@
         },
         {
             "name": "douggonsouza/gentelela",
-            "version": "1.0.11",
+            "version": "1.0.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/douggonsouza/gentelela.git",
-                "reference": "7af390f2e6577f64d7bb852698fff062e86f3f62"
+                "reference": "b940027b9d0aa3423e2cbc26e212904c58a5ee77"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/douggonsouza/gentelela/zipball/7af390f2e6577f64d7bb852698fff062e86f3f62",
-                "reference": "7af390f2e6577f64d7bb852698fff062e86f3f62",
+                "url": "https://api.github.com/repos/douggonsouza/gentelela/zipball/b940027b9d0aa3423e2cbc26e212904c58a5ee77",
+                "reference": "b940027b9d0aa3423e2cbc26e212904c58a5ee77",
                 "shasum": ""
             },
             "require": {
@@ -193,9 +193,9 @@
             "description": "Benchmarck para o template Gentelela",
             "support": {
                 "issues": "https://github.com/douggonsouza/gentelela/issues",
-                "source": "https://github.com/douggonsouza/gentelela/tree/1.0.11"
+                "source": "https://github.com/douggonsouza/gentelela/tree/1.0.12"
             },
-            "time": "2023-04-15T03:14:24+00:00"
+            "time": "2023-04-15T14:26:56+00:00"
         },
         {
             "name": "douggonsouza/html",
